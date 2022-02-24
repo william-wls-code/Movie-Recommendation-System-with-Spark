@@ -16,7 +16,7 @@ This model makes use of Alternating Least Square (ALS), which is a matrix factor
 Spark allows user to configure some of the properties. Please modify the configurations according to the hardware, especially `.config("spark.driver.memory", )` and `.config("spark.executor.cores", )`.
 
 ## Hyperparameters of ALS
-Hyperparameters of the ALS such as `regParam` regularization parameter can be modified to optimize the model and prevent over-fitting.
+Hyperparameters of the ALS such as `regParam` regularization parameter can be modified to optimize the model and prevent overfitting.
 
 ## Number of Recommendations Generated for each User
 The following line of code decides the number of recommendations generated for each user:
