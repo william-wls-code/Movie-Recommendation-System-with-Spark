@@ -4,3 +4,4 @@ __pycache__/
 .java-version
 test.py
 /ml-25m
+*ipynb
